@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 
-{% block body %}
+{%block title%}digital product managment homepage 
+{%endblock%} {% block body %}
 <h2>Home Page</h2>
 <p>This is the home page of the Digital Product Management website.</p>
+<img src = "{{ url_for('static', filename='images/Patrick.png') }}" alt="Patrick"
 {% endblock %}
